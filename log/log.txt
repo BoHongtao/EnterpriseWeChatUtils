@@ -1,0 +1,10 @@
+2019-09-16 Monday 10:33:36  sendMsg.py : DEBUG  script is running
+2019-09-16 Monday 10:33:36  sendMsg.py : DEBUG  send message:大佬们,会议室开会
+2019-09-16 Monday 10:33:36  connectionpool.py : DEBUG  Starting new HTTPS connection (1): qyapi.weixin.qq.com
+2019-09-16 Monday 10:33:36  connectionpool.py : DEBUG  https://qyapi.weixin.qq.com:443 "POST /cgi-bin/message/send?access_token=fADKnKCOfOJQjbPR2Guwc0FibqLlSuFofUiTn1l9Pr4LzvUax9sZ4iGs6idb0yDFIE4llGs3jOjriyIC-haiOTUnkRiNPHwxID31wqf9V7xamyFxLh8EvxdbHiLSeucVHpcca2UHak05_Un3ZsBZ6BiFsbATiayjPNCCIXrdgdXfNqVM2ueqz56MJfi7vFNA1WZfI-VldwHhCA-P7qQ7Q HTTP/1.1" 200 49
+2019-09-16 Monday 10:33:36  sendMsg.py : DEBUG  wechat response：{"errcode": 40014, "errmsg": "invalid access_token"}
+2019-09-16 Monday 10:33:36  connectionpool.py : DEBUG  Starting new HTTPS connection (1): qyapi.weixin.qq.com
+2019-09-16 Monday 10:33:36  connectionpool.py : DEBUG  https://qyapi.weixin.qq.com:443 "POST /cgi-bin/gettoken?corpid=ww8952cf4921438e6b&corpsecret=5oTimPVskMbsXijpgKoHdFzwB81NSH5Hu-AHa_EhwlI HTTP/1.1" 200 277
+2019-09-16 Monday 10:33:36  connectionpool.py : DEBUG  Starting new HTTPS connection (1): qyapi.weixin.qq.com
+2019-09-16 Monday 10:33:37  connectionpool.py : DEBUG  https://qyapi.weixin.qq.com:443 "POST /cgi-bin/message/send?access_token=vfADKnKCOfOJQjbPR2Guwc0FibqLlSuFofUiTn1l9Pr4LzvUax9sZ4iGs6idb0yDFIE4llGs3jOjriyIC-haiOTUnkRiNPHwxID31wqf9V7xamyFxLh8EvxdbHiLSeucVHpcca2UHak05_Un3ZsBZ6BiFsbATiayjPNCCIXrdgdXfNqVM2ueqz56MJfi7vFNA1WZfI-VldwHhCA-P7qQ7Q HTTP/1.1" 200 79
+2019-09-16 Monday 10:33:37  sendMsg.py : DEBUG  wechat response：{"errcode": 0, "errmsg": "ok", "invaliduser": "", "invalidparty": "PartyID1|PartyID2"}
